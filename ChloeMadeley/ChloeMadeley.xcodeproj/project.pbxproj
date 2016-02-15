@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636085571C723CE300B3A834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085561C723CE300B3A834 /* AppDelegate.swift */; };
+		636085591C723CE300B3A834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085581C723CE300B3A834 /* ViewController.swift */; };
+		6360855C1C723CE300B3A834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6360855A1C723CE300B3A834 /* Main.storyboard */; };
+		6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6360855D1C723CE300B3A834 /* Assets.xcassets */; };
+		636085691C723CE300B3A834 /* ChloeMadeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636085651C723CE300B3A834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6360854B1C723CE300B3A834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636085521C723CE300B3A834;
+			remoteInfo = ChloeMadeley;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636085531C723CE300B3A834 /* ChloeMadeley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChloeMadeley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636085561C723CE300B3A834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		636085581C723CE300B3A834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6360855B1C723CE300B3A834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6360855D1C723CE300B3A834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6360855F1C723CE300B3A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636085641C723CE300B3A834 /* ChloeMadeleyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChloeMadeleyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChloeMadeleyTests.swift; sourceTree = "<group>"; };
+		6360856A1C723CE300B3A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636085501C723CE300B3A834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636085611C723CE300B3A834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6360854A1C723CE300B3A834 = {
+			isa = PBXGroup;
+			children = (
+				636085551C723CE300B3A834 /* ChloeMadeley */,
+				636085671C723CE300B3A834 /* ChloeMadeleyTests */,
+				636085541C723CE300B3A834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636085541C723CE300B3A834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636085531C723CE300B3A834 /* ChloeMadeley.app */,
+				636085641C723CE300B3A834 /* ChloeMadeleyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636085551C723CE300B3A834 /* ChloeMadeley */ = {
+			isa = PBXGroup;
+			children = (
+				636085561C723CE300B3A834 /* AppDelegate.swift */,
+				636085581C723CE300B3A834 /* ViewController.swift */,
+				6360855A1C723CE300B3A834 /* Main.storyboard */,
+				6360855D1C723CE300B3A834 /* Assets.xcassets */,
+				6360855F1C723CE300B3A834 /* Info.plist */,
+			);
+			path = ChloeMadeley;
+			sourceTree = "<group>";
+		};
+		636085671C723CE300B3A834 /* ChloeMadeleyTests */ = {
+			isa = PBXGroup;
+			children = (
+				636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */,
+				6360856A1C723CE300B3A834 /* Info.plist */,
+			);
+			path = ChloeMadeleyTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636085521C723CE300B3A834 /* ChloeMadeley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6360856D1C723CE300B3A834 /* Build configuration list for PBXNativeTarget "ChloeMadeley" */;
+			buildPhases = (
+				6360854F1C723CE300B3A834 /* Sources */,
+				636085501C723CE300B3A834 /* Frameworks */,
+				636085511C723CE300B3A834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChloeMadeley;
+			productName = ChloeMadeley;
+			productReference = 636085531C723CE300B3A834 /* ChloeMadeley.app */;
+			productType = "com.apple.product-type.application";
+		};
+		636085631C723CE300B3A834 /* ChloeMadeleyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636085701C723CE300B3A834 /* Build configuration list for PBXNativeTarget "ChloeMadeleyTests" */;
+			buildPhases = (
+				636085601C723CE300B3A834 /* Sources */,
+				636085611C723CE300B3A834 /* Frameworks */,
+				636085621C723CE300B3A834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636085661C723CE300B3A834 /* PBXTargetDependency */,
+			);
+			name = ChloeMadeleyTests;
+			productName = ChloeMadeleyTests;
+			productReference = 636085641C723CE300B3A834 /* ChloeMadeleyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6360854B1C723CE300B3A834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ayk;
+				TargetAttributes = {
+					636085521C723CE300B3A834 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					636085631C723CE300B3A834 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 636085521C723CE300B3A834;
+					};
+				};
+			};
+			buildConfigurationList = 6360854E1C723CE300B3A834 /* Build configuration list for PBXProject "ChloeMadeley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6360854A1C723CE300B3A834;
+			productRefGroup = 636085541C723CE300B3A834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636085521C723CE300B3A834 /* ChloeMadeley */,
+				636085631C723CE300B3A834 /* ChloeMadeleyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636085511C723CE300B3A834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
+				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636085621C723CE300B3A834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6360854F1C723CE300B3A834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636085591C723CE300B3A834 /* ViewController.swift in Sources */,
+				636085571C723CE300B3A834 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636085601C723CE300B3A834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636085691C723CE300B3A834 /* ChloeMadeleyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636085661C723CE300B3A834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636085521C723CE300B3A834 /* ChloeMadeley */;
+			targetProxy = 636085651C723CE300B3A834 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6360855A1C723CE300B3A834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6360855B1C723CE300B3A834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6360856B1C723CE300B3A834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		6360856C1C723CE300B3A834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6360856E1C723CE300B3A834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ChloeMadeley/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ayk.ChloeMadeley;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6360856F1C723CE300B3A834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ChloeMadeley/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ayk.ChloeMadeley;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		636085711C723CE300B3A834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChloeMadeleyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ayk.ChloeMadeleyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChloeMadeley.app/ChloeMadeley";
+			};
+			name = Debug;
+		};
+		636085721C723CE300B3A834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChloeMadeleyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Ayk.ChloeMadeleyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChloeMadeley.app/ChloeMadeley";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6360854E1C723CE300B3A834 /* Build configuration list for PBXProject "ChloeMadeley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6360856B1C723CE300B3A834 /* Debug */,
+				6360856C1C723CE300B3A834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6360856D1C723CE300B3A834 /* Build configuration list for PBXNativeTarget "ChloeMadeley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6360856E1C723CE300B3A834 /* Debug */,
+				6360856F1C723CE300B3A834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		636085701C723CE300B3A834 /* Build configuration list for PBXNativeTarget "ChloeMadeleyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636085711C723CE300B3A834 /* Debug */,
+				636085721C723CE300B3A834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6360854B1C723CE300B3A834 /* Project object */;
+}
