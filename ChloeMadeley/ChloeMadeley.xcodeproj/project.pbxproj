@@ -12,6 +12,11 @@
 		6360855C1C723CE300B3A834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6360855A1C723CE300B3A834 /* Main.storyboard */; };
 		6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6360855D1C723CE300B3A834 /* Assets.xcassets */; };
 		636085691C723CE300B3A834 /* ChloeMadeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */; };
+		63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */; };
+		63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */; };
+		63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008D81C77468B005ACDD9 /* TransparentButton.swift */; };
+		63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */; };
+		63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008DE1C788CE9005ACDD9 /* VideoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 		636085641C723CE300B3A834 /* ChloeMadeleyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChloeMadeleyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChloeMadeleyTests.swift; sourceTree = "<group>"; };
 		6360856A1C723CE300B3A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Bold.ttf"; sourceTree = "<group>"; };
+		63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Book.ttf"; sourceTree = "<group>"; };
+		63E008D81C77468B005ACDD9 /* TransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransparentButton.swift; path = UI/Buttons/TransparentButton.swift; sourceTree = "<group>"; };
+		63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionViewController.swift; path = Controller/IntroductionViewController.swift; sourceTree = "<group>"; };
+		63E008DE1C788CE9005ACDD9 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoView.swift; path = UI/Views/VideoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,9 @@
 		636085551C723CE300B3A834 /* ChloeMadeley */ = {
 			isa = PBXGroup;
 			children = (
+				63E008DA1C774ECF005ACDD9 /* Controllers */,
+				63E008D61C77465F005ACDD9 /* UI */,
+				63E008D11C74BD12005ACDD9 /* Fonts */,
 				636085561C723CE300B3A834 /* AppDelegate.swift */,
 				636085581C723CE300B3A834 /* ViewController.swift */,
 				6360855A1C723CE300B3A834 /* Main.storyboard */,
@@ -91,6 +104,48 @@
 				6360856A1C723CE300B3A834 /* Info.plist */,
 			);
 			path = ChloeMadeleyTests;
+			sourceTree = "<group>";
+		};
+		63E008D11C74BD12005ACDD9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */,
+				63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		63E008D61C77465F005ACDD9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				63E008DD1C788CCC005ACDD9 /* Views */,
+				63E008D71C774668005ACDD9 /* Buttons */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		63E008D71C774668005ACDD9 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				63E008D81C77468B005ACDD9 /* TransparentButton.swift */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		63E008DA1C774ECF005ACDD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		63E008DD1C788CCC005ACDD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63E008DE1C788CE9005ACDD9 /* VideoView.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */,
 				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
+				63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */,
 				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */,
+				63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */,
+				63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */,
 				636085591C723CE300B3A834 /* ViewController.swift in Sources */,
 				636085571C723CE300B3A834 /* AppDelegate.swift in Sources */,
 			);
@@ -376,6 +436,7 @@
 				6360856F1C723CE300B3A834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		636085701C723CE300B3A834 /* Build configuration list for PBXNativeTarget "ChloeMadeleyTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +445,7 @@
 				636085721C723CE300B3A834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
