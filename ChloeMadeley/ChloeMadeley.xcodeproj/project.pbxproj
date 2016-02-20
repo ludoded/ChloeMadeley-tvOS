@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		636085571C723CE300B3A834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085561C723CE300B3A834 /* AppDelegate.swift */; };
-		636085591C723CE300B3A834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085581C723CE300B3A834 /* ViewController.swift */; };
 		6360855C1C723CE300B3A834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6360855A1C723CE300B3A834 /* Main.storyboard */; };
 		6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6360855D1C723CE300B3A834 /* Assets.xcassets */; };
 		636085691C723CE300B3A834 /* ChloeMadeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */; };
@@ -17,6 +16,19 @@
 		63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008D81C77468B005ACDD9 /* TransparentButton.swift */; };
 		63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */; };
 		63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008DE1C788CE9005ACDD9 /* VideoView.swift */; };
+		63E008E11C78A2C7005ACDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008E01C78A2C7005ACDD9 /* ViewController.swift */; };
+		63E008F11C78A2F5005ACDD9 /* intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E41C78A2F5005ACDD9 /* intro.mov */; };
+		63E008F21C78A2F5005ACDD9 /* alternate lunges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E61C78A2F5005ACDD9 /* alternate lunges.mp4 */; };
+		63E008F31C78A2F5005ACDD9 /* bicycles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E71C78A2F5005ACDD9 /* bicycles.mp4 */; };
+		63E008F41C78A2F5005ACDD9 /* burpees.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E81C78A2F5005ACDD9 /* burpees.mp4 */; };
+		63E008F51C78A2F5005ACDD9 /* donkey kick backs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E91C78A2F5005ACDD9 /* donkey kick backs.mp4 */; };
+		63E008F61C78A2F5005ACDD9 /* leg plunges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EA1C78A2F5005ACDD9 /* leg plunges.mp4 */; };
+		63E008F71C78A2F5005ACDD9 /* mountain climbers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EB1C78A2F5005ACDD9 /* mountain climbers.mp4 */; };
+		63E008F81C78A2F5005ACDD9 /* NPC_6008.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EC1C78A2F5005ACDD9 /* NPC_6008.mp4 */; };
+		63E008F91C78A2F5005ACDD9 /* plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008ED1C78A2F5005ACDD9 /* plank.mp4 */; };
+		63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */; };
+		63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */; };
+		63E008FC1C78A2F5005ACDD9 /* walkout push ups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +44,6 @@
 /* Begin PBXFileReference section */
 		636085531C723CE300B3A834 /* ChloeMadeley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChloeMadeley.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636085561C723CE300B3A834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		636085581C723CE300B3A834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6360855B1C723CE300B3A834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6360855D1C723CE300B3A834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6360855F1C723CE300B3A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +55,19 @@
 		63E008D81C77468B005ACDD9 /* TransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransparentButton.swift; path = UI/Buttons/TransparentButton.swift; sourceTree = "<group>"; };
 		63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionViewController.swift; path = Controller/IntroductionViewController.swift; sourceTree = "<group>"; };
 		63E008DE1C788CE9005ACDD9 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoView.swift; path = UI/Views/VideoView.swift; sourceTree = "<group>"; };
+		63E008E01C78A2C7005ACDD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
+		63E008E41C78A2F5005ACDD9 /* intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = intro.mov; sourceTree = "<group>"; };
+		63E008E61C78A2F5005ACDD9 /* alternate lunges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alternate lunges.mp4"; sourceTree = "<group>"; };
+		63E008E71C78A2F5005ACDD9 /* bicycles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bicycles.mp4; sourceTree = "<group>"; };
+		63E008E81C78A2F5005ACDD9 /* burpees.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpees.mp4; sourceTree = "<group>"; };
+		63E008E91C78A2F5005ACDD9 /* donkey kick backs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "donkey kick backs.mp4"; sourceTree = "<group>"; };
+		63E008EA1C78A2F5005ACDD9 /* leg plunges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "leg plunges.mp4"; sourceTree = "<group>"; };
+		63E008EB1C78A2F5005ACDD9 /* mountain climbers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mountain climbers.mp4"; sourceTree = "<group>"; };
+		63E008EC1C78A2F5005ACDD9 /* NPC_6008.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NPC_6008.mp4; sourceTree = "<group>"; };
+		63E008ED1C78A2F5005ACDD9 /* plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = plank.mp4; sourceTree = "<group>"; };
+		63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "squat jumps.mp4"; sourceTree = "<group>"; };
+		63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tricep dips.mp4"; sourceTree = "<group>"; };
+		63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "walkout push ups.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +109,11 @@
 		636085551C723CE300B3A834 /* ChloeMadeley */ = {
 			isa = PBXGroup;
 			children = (
+				63E008E21C78A2F5005ACDD9 /* Videos */,
 				63E008DA1C774ECF005ACDD9 /* Controllers */,
 				63E008D61C77465F005ACDD9 /* UI */,
 				63E008D11C74BD12005ACDD9 /* Fonts */,
 				636085561C723CE300B3A834 /* AppDelegate.swift */,
-				636085581C723CE300B3A834 /* ViewController.swift */,
 				6360855A1C723CE300B3A834 /* Main.storyboard */,
 				6360855D1C723CE300B3A834 /* Assets.xcassets */,
 				6360855F1C723CE300B3A834 /* Info.plist */,
@@ -135,6 +159,7 @@
 		63E008DA1C774ECF005ACDD9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				63E008E01C78A2C7005ACDD9 /* ViewController.swift */,
 				63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */,
 			);
 			name = Controllers;
@@ -146,6 +171,41 @@
 				63E008DE1C788CE9005ACDD9 /* VideoView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		63E008E21C78A2F5005ACDD9 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				63E008E31C78A2F5005ACDD9 /* intro video */,
+				63E008E51C78A2F5005ACDD9 /* video exercises */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		63E008E31C78A2F5005ACDD9 /* intro video */ = {
+			isa = PBXGroup;
+			children = (
+				63E008E41C78A2F5005ACDD9 /* intro.mov */,
+			);
+			path = "intro video";
+			sourceTree = "<group>";
+		};
+		63E008E51C78A2F5005ACDD9 /* video exercises */ = {
+			isa = PBXGroup;
+			children = (
+				63E008E61C78A2F5005ACDD9 /* alternate lunges.mp4 */,
+				63E008E71C78A2F5005ACDD9 /* bicycles.mp4 */,
+				63E008E81C78A2F5005ACDD9 /* burpees.mp4 */,
+				63E008E91C78A2F5005ACDD9 /* donkey kick backs.mp4 */,
+				63E008EA1C78A2F5005ACDD9 /* leg plunges.mp4 */,
+				63E008EB1C78A2F5005ACDD9 /* mountain climbers.mp4 */,
+				63E008EC1C78A2F5005ACDD9 /* NPC_6008.mp4 */,
+				63E008ED1C78A2F5005ACDD9 /* plank.mp4 */,
+				63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */,
+				63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */,
+				63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */,
+			);
+			path = "video exercises";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +289,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E008F91C78A2F5005ACDD9 /* plank.mp4 in Resources */,
+				63E008F61C78A2F5005ACDD9 /* leg plunges.mp4 in Resources */,
+				63E008FC1C78A2F5005ACDD9 /* walkout push ups.mp4 in Resources */,
+				63E008F71C78A2F5005ACDD9 /* mountain climbers.mp4 in Resources */,
+				63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */,
+				63E008F41C78A2F5005ACDD9 /* burpees.mp4 in Resources */,
+				63E008F11C78A2F5005ACDD9 /* intro.mov in Resources */,
+				63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */,
 				63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */,
+				63E008F81C78A2F5005ACDD9 /* NPC_6008.mp4 in Resources */,
 				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
 				63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */,
 				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
+				63E008F31C78A2F5005ACDD9 /* bicycles.mp4 in Resources */,
+				63E008F21C78A2F5005ACDD9 /* alternate lunges.mp4 in Resources */,
+				63E008F51C78A2F5005ACDD9 /* donkey kick backs.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E008E11C78A2C7005ACDD9 /* ViewController.swift in Sources */,
 				63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */,
 				63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */,
 				63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */,
-				636085591C723CE300B3A834 /* ViewController.swift in Sources */,
 				636085571C723CE300B3A834 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
