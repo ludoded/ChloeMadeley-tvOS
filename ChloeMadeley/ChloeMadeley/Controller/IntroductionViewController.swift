@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  IntroductionViewController.swift
 //  ChloeMadeley
 //
 //  Created by Aik Ampardjian on 19.02.16.
@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class IntroductionViewController: UIViewController {
+class IntroductionViewController: BaseViewController {
     @IBOutlet weak var videoLayer: VideoView!
     @IBOutlet weak var descriptionTextView: UITextView!
     

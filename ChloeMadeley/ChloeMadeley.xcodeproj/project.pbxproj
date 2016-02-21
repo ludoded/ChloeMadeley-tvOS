@@ -29,6 +29,9 @@
 		63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */; };
 		63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */; };
 		63E008FC1C78A2F5005ACDD9 /* walkout push ups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */; };
+		B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F33001C790729005CE594 /* DescriptionViewController.swift */; };
+		B29F33031C790850005CE594 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F33021C790850005CE594 /* BaseViewController.swift */; };
+		B29F33061C791AEA005CE594 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = B29F33051C791AEA005CE594 /* 1.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "squat jumps.mp4"; sourceTree = "<group>"; };
 		63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tricep dips.mp4"; sourceTree = "<group>"; };
 		63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "walkout push ups.mp4"; sourceTree = "<group>"; };
+		B29F33001C790729005CE594 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionViewController.swift; path = Controller/DescriptionViewController.swift; sourceTree = "<group>"; };
+		B29F33021C790850005CE594 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controller/BaseViewController.swift; sourceTree = "<group>"; };
+		B29F33051C791AEA005CE594 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 		636085551C723CE300B3A834 /* ChloeMadeley */ = {
 			isa = PBXGroup;
 			children = (
+				B29F33041C791AEA005CE594 /* Resources */,
 				63E008E21C78A2F5005ACDD9 /* Videos */,
 				63E008DA1C774ECF005ACDD9 /* Controllers */,
 				63E008D61C77465F005ACDD9 /* UI */,
@@ -161,6 +168,8 @@
 			children = (
 				63E008E01C78A2C7005ACDD9 /* ViewController.swift */,
 				63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */,
+				B29F33001C790729005CE594 /* DescriptionViewController.swift */,
+				B29F33021C790850005CE594 /* BaseViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -206,6 +215,14 @@
 				63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */,
 			);
 			path = "video exercises";
+			sourceTree = "<group>";
+		};
+		B29F33041C791AEA005CE594 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B29F33051C791AEA005CE594 /* 1.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +317,7 @@
 				63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */,
 				63E008F81C78A2F5005ACDD9 /* NPC_6008.mp4 in Resources */,
 				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
+				B29F33061C791AEA005CE594 /* 1.html in Resources */,
 				63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */,
 				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
 				63E008F31C78A2F5005ACDD9 /* bicycles.mp4 in Resources */,
@@ -325,7 +343,9 @@
 				63E008E11C78A2C7005ACDD9 /* ViewController.swift in Sources */,
 				63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */,
 				63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */,
+				B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */,
 				63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */,
+				B29F33031C790850005CE594 /* BaseViewController.swift in Sources */,
 				636085571C723CE300B3A834 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
