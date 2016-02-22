@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Futura-Bold.ttf">
@@ -124,6 +125,9 @@
                                                 <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gdh-wm-Akl"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LV8-eW-EmB" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
                                         <rect key="frame" x="292" y="232" width="391" height="86"/>
@@ -141,6 +145,9 @@
                                                 <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="P1j-XP-JRG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY9-mN-P9x" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
                                         <rect key="frame" x="292" y="328" width="391" height="86"/>
@@ -158,6 +165,9 @@
                                                 <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="1vt-xe-3x9"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYr-mn-x4P" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
                                         <rect key="frame" x="292" y="423" width="391" height="86"/>
@@ -175,6 +185,9 @@
                                                 <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="FNo-uT-0Me"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -183,12 +196,16 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="upperBodyButton" destination="Wa3-HZ-zdx" id="i8h-6Z-hSI"/>
+                        <outlet property="coreButton" destination="LV8-eW-EmB" id="zZ0-Eg-CNm"/>
+                        <outlet property="fatBurningButton" destination="UYr-mn-x4P" id="M5c-Q3-7Vm"/>
+                        <outlet property="lowerBodyButton" destination="iY9-mN-P9x" id="E0p-zv-vBU"/>
+                        <outlet property="upperBodyButton" destination="LEA-Ks-GKd" id="3RL-V3-gc9"/>
+                        <segue destination="KPm-Zg-K8U" kind="show" identifier="showExercisesViewController" id="cfr-0b-re7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="542" y="525"/>
+            <point key="canvasLocation" x="563" y="525"/>
         </scene>
         <!--Introduction View Controller-->
         <scene sceneID="iiT-ea-ct6">
@@ -381,10 +398,10 @@
             </objects>
             <point key="canvasLocation" x="542" y="2968"/>
         </scene>
-        <!--View Controller-->
+        <!--Exercises View Controller-->
         <scene sceneID="7p2-vY-N4y">
             <objects>
-                <viewController id="KPm-Zg-K8U" sceneMemberID="viewController">
+                <viewController id="KPm-Zg-K8U" customClass="ExercisesViewController" customModule="ChloeMadeley" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MyH-cO-xba"/>
                         <viewControllerLayoutGuide type="bottom" id="nDo-li-Khb"/>
@@ -393,32 +410,96 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="l0T-Bm-CEY">
-                                <rect key="frame" x="-3" y="48" width="1922" height="440"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FiJ-hD-OHB">
-                                    <size key="itemSize" width="50" height="50"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iz-r6-zAQ">
+                                <rect key="frame" x="0.0" y="508" width="1080" height="572"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maR-KE-XVI">
+                                <rect key="frame" x="1140" y="524" width="743" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="743" id="A1F-Ow-5Ok"/>
+                                    <constraint firstAttribute="height" constant="104" id="sdc-n2-Cy8"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Start Timer"/>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="l0T-Bm-CEY">
+                                <rect key="frame" x="0.0" y="50" width="1920" height="450"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="450" id="C7D-gY-reT"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="FiJ-hD-OHB">
+                                    <size key="itemSize" width="480" height="441"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="XuP-ya-NIc">
-                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="scaleAspectFit" reuseIdentifier="exerciseCollectionViewCellIdentifier" id="XuP-ya-NIc" customClass="ExerciseCollectionViewCell" customModule="ChloeMadeley" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="5" width="480" height="441"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="480" height="441"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NPC" adjustsImageWhenAncestorFocused="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Kv-mO-jjy">
+                                                    <rect key="frame" x="20" y="8" width="440" height="279"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lunges" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7A-RY-TRI">
+                                                    <rect key="frame" x="8" y="387" width="464" height="46"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="46" id="Nl3-9m-Hkl"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="h7A-RY-TRI" secondAttribute="trailing" constant="8" id="1Gc-xB-jZz"/>
+                                            <constraint firstItem="6Kv-mO-jjy" firstAttribute="leading" secondItem="XuP-ya-NIc" secondAttribute="leading" constant="20" id="27o-Hq-ykw"/>
+                                            <constraint firstAttribute="bottom" secondItem="h7A-RY-TRI" secondAttribute="bottom" constant="8" id="36q-of-gpV"/>
+                                            <constraint firstItem="h7A-RY-TRI" firstAttribute="leading" secondItem="XuP-ya-NIc" secondAttribute="leading" constant="8" id="HqM-Z5-8s9"/>
+                                            <constraint firstItem="h7A-RY-TRI" firstAttribute="top" secondItem="6Kv-mO-jjy" secondAttribute="bottom" constant="100" id="UhB-Pe-nqQ"/>
+                                            <constraint firstItem="6Kv-mO-jjy" firstAttribute="top" secondItem="XuP-ya-NIc" secondAttribute="top" constant="8" id="aTv-de-heN"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Kv-mO-jjy" secondAttribute="trailing" constant="20" id="qNt-t7-LRR"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="h7A-RY-TRI" id="VPg-rT-da6"/>
+                                            <outlet property="thumbsImageView" destination="6Kv-mO-jjy" id="7gt-aG-Hu0"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="KPm-Zg-K8U" id="tPH-JP-2cN"/>
+                                    <outlet property="delegate" destination="KPm-Zg-K8U" id="KXw-c2-43i"/>
+                                </connections>
                             </collectionView>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="l0T-Bm-CEY" secondAttribute="trailing" id="6lo-by-hVT"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="4iz-r6-zAQ" secondAttribute="bottom" id="AuE-xP-lpN"/>
+                            <constraint firstItem="maR-KE-XVI" firstAttribute="top" secondItem="l0T-Bm-CEY" secondAttribute="bottom" constant="24" id="LrO-5l-fBB"/>
+                            <constraint firstItem="l0T-Bm-CEY" firstAttribute="leading" secondItem="b69-Aa-28K" secondAttribute="leading" id="SUH-Ns-Y4n"/>
+                            <constraint firstItem="4iz-r6-zAQ" firstAttribute="top" secondItem="l0T-Bm-CEY" secondAttribute="bottom" constant="8" id="TfQ-UL-IuK"/>
+                            <constraint firstItem="4iz-r6-zAQ" firstAttribute="leading" secondItem="b69-Aa-28K" secondAttribute="leading" id="av9-ah-RAS"/>
+                            <constraint firstAttribute="trailing" secondItem="maR-KE-XVI" secondAttribute="trailing" constant="37" id="cRR-xr-8Pi"/>
+                            <constraint firstItem="maR-KE-XVI" firstAttribute="leading" secondItem="4iz-r6-zAQ" secondAttribute="trailing" constant="60" id="etN-Vi-6LJ"/>
+                            <constraint firstItem="l0T-Bm-CEY" firstAttribute="top" secondItem="b69-Aa-28K" secondAttribute="topMargin" constant="50" id="r5x-4Z-AmE"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionView" destination="l0T-Bm-CEY" id="26Q-38-5c9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTP-Ce-3SP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2506" y="1802"/>
+            <point key="canvasLocation" x="2689" y="525"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="a8n-6G-3NU">
@@ -442,5 +523,6 @@
         <image name="1" width="2883" height="290"/>
         <image name="FabChloe" width="953" height="1343"/>
         <image name="GrayChloe" width="2436" height="3367"/>
+        <image name="NPC" width="2144" height="1304"/>
     </resources>
 </document>

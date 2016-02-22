@@ -29,9 +29,30 @@
 		63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */; };
 		63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */; };
 		63E008FC1C78A2F5005ACDD9 /* walkout push ups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */; };
+		B25DD3531C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DD3521C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift */; };
+		B25DD3551C7A483500CE94D5 /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25DD3541C7A483500CE94D5 /* ExercisesViewController.swift */; };
+		B25DD36A1C7A5E8F00CE94D5 /* CoreIntro.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3561C7A5E8F00CE94D5 /* CoreIntro.html */; };
+		B25DD36B1C7A5E8F00CE94D5 /* CoreLegPlunges.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3571C7A5E8F00CE94D5 /* CoreLegPlunges.html */; };
+		B25DD36C1C7A5E8F00CE94D5 /* CoreMountainClimbers.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3581C7A5E8F00CE94D5 /* CoreMountainClimbers.html */; };
+		B25DD36D1C7A5E8F00CE94D5 /* CorePlank.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3591C7A5E8F00CE94D5 /* CorePlank.html */; };
+		B25DD36E1C7A5E8F00CE94D5 /* FatBurningBurpees.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD35A1C7A5E8F00CE94D5 /* FatBurningBurpees.html */; };
+		B25DD36F1C7A5E8F00CE94D5 /* FatBurningIntro.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD35B1C7A5E8F00CE94D5 /* FatBurningIntro.html */; };
+		B25DD3701C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD35C1C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html */; };
+		B25DD3711C7A5E8F00CE94D5 /* FatBurningSquatJumps.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD35D1C7A5E8F00CE94D5 /* FatBurningSquatJumps.html */; };
+		B25DD3721C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD35E1C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html */; };
+		B25DD3731C7A5E8F00CE94D5 /* Intro.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD35F1C7A5E8F00CE94D5 /* Intro.html */; };
+		B25DD3741C7A5E8F00CE94D5 /* LowerBodyBurpees.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3601C7A5E8F00CE94D5 /* LowerBodyBurpees.html */; };
+		B25DD3751C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3611C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html */; };
+		B25DD3761C7A5E8F00CE94D5 /* LowerBodyIntro.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3621C7A5E8F00CE94D5 /* LowerBodyIntro.html */; };
+		B25DD3771C7A5E8F00CE94D5 /* LowerBodySquatJumps.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3631C7A5E8F00CE94D5 /* LowerBodySquatJumps.html */; };
+		B25DD3781C7A5E8F00CE94D5 /* LowerBodyWalkingLunges.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3641C7A5E8F00CE94D5 /* LowerBodyWalkingLunges.html */; };
+		B25DD3791C7A5E8F00CE94D5 /* UpperBodyBurpees.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3651C7A5E8F00CE94D5 /* UpperBodyBurpees.html */; };
+		B25DD37A1C7A5E8F00CE94D5 /* UpperBodyIntro.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3661C7A5E8F00CE94D5 /* UpperBodyIntro.html */; };
+		B25DD37B1C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3671C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html */; };
+		B25DD37C1C7A5E8F00CE94D5 /* UpperBodyTricepDips.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3681C7A5E8F00CE94D5 /* UpperBodyTricepDips.html */; };
+		B25DD37D1C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html */; };
 		B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F33001C790729005CE594 /* DescriptionViewController.swift */; };
 		B29F33031C790850005CE594 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F33021C790850005CE594 /* BaseViewController.swift */; };
-		B29F33061C791AEA005CE594 /* 1.html in Resources */ = {isa = PBXBuildFile; fileRef = B29F33051C791AEA005CE594 /* 1.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,9 +92,30 @@
 		63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "squat jumps.mp4"; sourceTree = "<group>"; };
 		63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tricep dips.mp4"; sourceTree = "<group>"; };
 		63E008F01C78A2F5005ACDD9 /* walkout push ups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "walkout push ups.mp4"; sourceTree = "<group>"; };
+		B25DD3521C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseCollectionViewCell.swift; path = UI/Views/ExerciseCollectionViewCell.swift; sourceTree = "<group>"; };
+		B25DD3541C7A483500CE94D5 /* ExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExercisesViewController.swift; path = Controller/ExercisesViewController.swift; sourceTree = "<group>"; };
+		B25DD3561C7A5E8F00CE94D5 /* CoreIntro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreIntro.html; sourceTree = "<group>"; };
+		B25DD3571C7A5E8F00CE94D5 /* CoreLegPlunges.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreLegPlunges.html; sourceTree = "<group>"; };
+		B25DD3581C7A5E8F00CE94D5 /* CoreMountainClimbers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreMountainClimbers.html; sourceTree = "<group>"; };
+		B25DD3591C7A5E8F00CE94D5 /* CorePlank.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CorePlank.html; sourceTree = "<group>"; };
+		B25DD35A1C7A5E8F00CE94D5 /* FatBurningBurpees.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FatBurningBurpees.html; sourceTree = "<group>"; };
+		B25DD35B1C7A5E8F00CE94D5 /* FatBurningIntro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FatBurningIntro.html; sourceTree = "<group>"; };
+		B25DD35C1C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FatBurningMountainClimbers.html; sourceTree = "<group>"; };
+		B25DD35D1C7A5E8F00CE94D5 /* FatBurningSquatJumps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FatBurningSquatJumps.html; sourceTree = "<group>"; };
+		B25DD35E1C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = FatBurningWalkingLunges.html; sourceTree = "<group>"; };
+		B25DD35F1C7A5E8F00CE94D5 /* Intro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Intro.html; sourceTree = "<group>"; };
+		B25DD3601C7A5E8F00CE94D5 /* LowerBodyBurpees.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LowerBodyBurpees.html; sourceTree = "<group>"; };
+		B25DD3611C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LowerBodyDonkeyKickBacks.html; sourceTree = "<group>"; };
+		B25DD3621C7A5E8F00CE94D5 /* LowerBodyIntro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LowerBodyIntro.html; sourceTree = "<group>"; };
+		B25DD3631C7A5E8F00CE94D5 /* LowerBodySquatJumps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LowerBodySquatJumps.html; sourceTree = "<group>"; };
+		B25DD3641C7A5E8F00CE94D5 /* LowerBodyWalkingLunges.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = LowerBodyWalkingLunges.html; sourceTree = "<group>"; };
+		B25DD3651C7A5E8F00CE94D5 /* UpperBodyBurpees.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyBurpees.html; sourceTree = "<group>"; };
+		B25DD3661C7A5E8F00CE94D5 /* UpperBodyIntro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyIntro.html; sourceTree = "<group>"; };
+		B25DD3671C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyMountainClimbers.html; sourceTree = "<group>"; };
+		B25DD3681C7A5E8F00CE94D5 /* UpperBodyTricepDips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyTricepDips.html; sourceTree = "<group>"; };
+		B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyWalkOutPushUps.html; sourceTree = "<group>"; };
 		B29F33001C790729005CE594 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionViewController.swift; path = Controller/DescriptionViewController.swift; sourceTree = "<group>"; };
 		B29F33021C790850005CE594 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controller/BaseViewController.swift; sourceTree = "<group>"; };
-		B29F33051C791AEA005CE594 /* 1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 1.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +212,7 @@
 				63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */,
 				B29F33001C790729005CE594 /* DescriptionViewController.swift */,
 				B29F33021C790850005CE594 /* BaseViewController.swift */,
+				B25DD3541C7A483500CE94D5 /* ExercisesViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -178,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				63E008DE1C788CE9005ACDD9 /* VideoView.swift */,
+				B25DD3521C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -220,7 +264,26 @@
 		B29F33041C791AEA005CE594 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B29F33051C791AEA005CE594 /* 1.html */,
+				B25DD3561C7A5E8F00CE94D5 /* CoreIntro.html */,
+				B25DD3571C7A5E8F00CE94D5 /* CoreLegPlunges.html */,
+				B25DD3581C7A5E8F00CE94D5 /* CoreMountainClimbers.html */,
+				B25DD3591C7A5E8F00CE94D5 /* CorePlank.html */,
+				B25DD35A1C7A5E8F00CE94D5 /* FatBurningBurpees.html */,
+				B25DD35B1C7A5E8F00CE94D5 /* FatBurningIntro.html */,
+				B25DD35C1C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html */,
+				B25DD35D1C7A5E8F00CE94D5 /* FatBurningSquatJumps.html */,
+				B25DD35E1C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html */,
+				B25DD35F1C7A5E8F00CE94D5 /* Intro.html */,
+				B25DD3601C7A5E8F00CE94D5 /* LowerBodyBurpees.html */,
+				B25DD3611C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html */,
+				B25DD3621C7A5E8F00CE94D5 /* LowerBodyIntro.html */,
+				B25DD3631C7A5E8F00CE94D5 /* LowerBodySquatJumps.html */,
+				B25DD3641C7A5E8F00CE94D5 /* LowerBodyWalkingLunges.html */,
+				B25DD3651C7A5E8F00CE94D5 /* UpperBodyBurpees.html */,
+				B25DD3661C7A5E8F00CE94D5 /* UpperBodyIntro.html */,
+				B25DD3671C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html */,
+				B25DD3681C7A5E8F00CE94D5 /* UpperBodyTricepDips.html */,
+				B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -306,23 +369,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25DD3711C7A5E8F00CE94D5 /* FatBurningSquatJumps.html in Resources */,
+				B25DD3741C7A5E8F00CE94D5 /* LowerBodyBurpees.html in Resources */,
 				63E008F91C78A2F5005ACDD9 /* plank.mp4 in Resources */,
+				B25DD3721C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html in Resources */,
 				63E008F61C78A2F5005ACDD9 /* leg plunges.mp4 in Resources */,
+				B25DD36A1C7A5E8F00CE94D5 /* CoreIntro.html in Resources */,
+				B25DD3731C7A5E8F00CE94D5 /* Intro.html in Resources */,
+				B25DD3751C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html in Resources */,
+				B25DD37C1C7A5E8F00CE94D5 /* UpperBodyTricepDips.html in Resources */,
+				B25DD37B1C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html in Resources */,
 				63E008FC1C78A2F5005ACDD9 /* walkout push ups.mp4 in Resources */,
+				B25DD3761C7A5E8F00CE94D5 /* LowerBodyIntro.html in Resources */,
 				63E008F71C78A2F5005ACDD9 /* mountain climbers.mp4 in Resources */,
 				63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */,
 				63E008F41C78A2F5005ACDD9 /* burpees.mp4 in Resources */,
 				63E008F11C78A2F5005ACDD9 /* intro.mov in Resources */,
 				63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */,
 				63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */,
+				B25DD3781C7A5E8F00CE94D5 /* LowerBodyWalkingLunges.html in Resources */,
+				B25DD36F1C7A5E8F00CE94D5 /* FatBurningIntro.html in Resources */,
 				63E008F81C78A2F5005ACDD9 /* NPC_6008.mp4 in Resources */,
 				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
-				B29F33061C791AEA005CE594 /* 1.html in Resources */,
+				B25DD3701C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html in Resources */,
+				B25DD36E1C7A5E8F00CE94D5 /* FatBurningBurpees.html in Resources */,
+				B25DD36C1C7A5E8F00CE94D5 /* CoreMountainClimbers.html in Resources */,
+				B25DD37D1C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html in Resources */,
 				63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */,
 				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
+				B25DD37A1C7A5E8F00CE94D5 /* UpperBodyIntro.html in Resources */,
+				B25DD3791C7A5E8F00CE94D5 /* UpperBodyBurpees.html in Resources */,
+				B25DD36D1C7A5E8F00CE94D5 /* CorePlank.html in Resources */,
 				63E008F31C78A2F5005ACDD9 /* bicycles.mp4 in Resources */,
 				63E008F21C78A2F5005ACDD9 /* alternate lunges.mp4 in Resources */,
 				63E008F51C78A2F5005ACDD9 /* donkey kick backs.mp4 in Resources */,
+				B25DD3771C7A5E8F00CE94D5 /* LowerBodySquatJumps.html in Resources */,
+				B25DD36B1C7A5E8F00CE94D5 /* CoreLegPlunges.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +426,8 @@
 				63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */,
 				63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */,
 				B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */,
+				B25DD3531C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift in Sources */,
+				B25DD3551C7A483500CE94D5 /* ExercisesViewController.swift in Sources */,
 				63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */,
 				B29F33031C790850005CE594 /* BaseViewController.swift in Sources */,
 				636085571C723CE300B3A834 /* AppDelegate.swift in Sources */,
