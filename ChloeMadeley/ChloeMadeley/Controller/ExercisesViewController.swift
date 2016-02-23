@@ -33,6 +33,7 @@ class ExercisesViewController: UIViewController {
         super.viewDidLoad()
         
         descriptionTextView.attributedText = getAttributedString(getHTMLIntro())
+        collectionView.clipsToBounds = false
     }
     
     private func getAttributedString(htmlName: String) -> NSAttributedString {
@@ -76,6 +77,19 @@ class ExercisesViewController: UIViewController {
         case .SquatJumps: return "squat jumps"
         case .TricepDips: return "tricep dips"
         case .WalkoutPushups: return "walkout push ups"
+        }
+    }
+    
+    private func getVideoNames() -> [String?] {
+        switch exerciseType! {
+        case .UpperBody:
+            return [getVideoName(.MountainClimbers),getVideoName(.WalkoutPushups),getVideoName(.TricepDips),getVideoName(.Burpees)]
+        case .Core:
+            return [getVideoName(.MountainClimbers),getVideoName(.Plank),getVideoName(.Bicycles),getVideoName(.LegPlunges)]
+        case .LowerBody:
+            return [getVideoName(.SquatJumps),getVideoName(.NPC),getVideoName(.DonkeyKickBacks),getVideoName(.Burpees)]
+        case .Fat:
+            return [getVideoName(.MountainClimbers),getVideoName(.Burpees),getVideoName(.SquatJumps),getVideoName(.NPC)]
         }
     }
     
@@ -160,6 +174,7 @@ class ExercisesViewController: UIViewController {
             let vc = segue.destinationViewController as? TimerViewController
             vc?.audioName = getAudioName()
             vc?.countdownStartTime = getTimeInterval()
+            vc?.videoNames = getVideoNames()
         }
     }
 }

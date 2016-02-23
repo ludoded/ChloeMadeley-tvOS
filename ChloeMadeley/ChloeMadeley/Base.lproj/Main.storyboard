@@ -450,13 +450,25 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WpZ-Us-bGy">
+                                <rect key="frame" x="1004" y="256" width="647" height="351"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0/3 completed" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvE-Vh-DXU">
+                                <rect key="frame" x="550" y="76" width="1350" height="122"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <color key="textColor" red="0.82745098039999998" green="0.050980392159999999" blue="0.52941176469999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="completionLabel" destination="hvE-Vh-DXU" id="gs2-tx-O9K"/>
                         <outlet property="replayButton" destination="fxc-gG-KYe" id="Bsg-mC-yFh"/>
                         <outlet property="timerHolder" destination="wqT-li-s5I" id="Jjv-R4-jUV"/>
                         <outlet property="timerLabel" destination="vGQ-QI-0w0" id="gab-7n-Fkt"/>
+                        <outlet property="videoHolder" destination="WpZ-Us-bGy" id="tBO-il-X1X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7f-iK-ylA" userLabel="First Responder" sceneMemberID="firstResponder"/>
