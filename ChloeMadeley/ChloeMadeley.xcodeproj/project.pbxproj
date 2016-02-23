@@ -292,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				63DCD88E1C7B47C200422861 /* audio */,
+				B25DD35F1C7A5E8F00CE94D5 /* Intro.html */,
 				B25DD3561C7A5E8F00CE94D5 /* CoreIntro.html */,
 				63DCD8971C7B47DE00422861 /* CoreBicycles.html */,
 				B25DD3571C7A5E8F00CE94D5 /* CoreLegPlunges.html */,
@@ -302,7 +303,6 @@
 				B25DD35C1C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html */,
 				B25DD35D1C7A5E8F00CE94D5 /* FatBurningSquatJumps.html */,
 				B25DD35E1C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html */,
-				B25DD35F1C7A5E8F00CE94D5 /* Intro.html */,
 				B25DD3601C7A5E8F00CE94D5 /* LowerBodyBurpees.html */,
 				B25DD3611C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html */,
 				B25DD3621C7A5E8F00CE94D5 /* LowerBodyIntro.html */,
