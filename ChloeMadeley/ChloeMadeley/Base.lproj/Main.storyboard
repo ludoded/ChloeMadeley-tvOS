@@ -31,72 +31,38 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1920" height="323"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GrayChloe" translatesAutoresizingMaskIntoConstraints="NO" id="LY4-B6-UFj">
-                                        <rect key="frame" x="1426" y="50" width="237" height="273"/>
+                                        <rect key="frame" x="1228" y="16" width="267" height="307"/>
                                     </imageView>
-                                    <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KyX-pi-NCU">
+                                    <view alpha="0.65000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KyX-pi-NCU">
                                         <rect key="frame" x="0.0" y="0.0" width="1920" height="323"/>
-                                        <color key="backgroundColor" red="0.82817529509999999" green="0.049218289970000002" blue="0.5286624553" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHLOE MADELEY " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qF-ZQ-kvq">
-                                        <rect key="frame" x="90" y="60" width="1130" height="120"/>
-                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="131"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 MINUTE FAT LOSS WORKOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu1-1b-wfW">
                                         <rect key="frame" x="90" y="180" width="1130" height="70"/>
                                         <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="67"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6O4-WX-ahu">
-                                        <rect key="frame" x="0.0" y="250" width="1210" height="75"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wa3-HZ-zdx">
-                                                <rect key="frame" x="8" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="UPPER BODY"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNS-e8-jt1">
-                                                <rect key="frame" x="627" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="LOWER BODY"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AhF-Ks-2gB">
-                                                <rect key="frame" x="935" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="FAT BURNING"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mGo-jC-VIk">
-                                                <rect key="frame" x="317" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="CORE"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHLOE MADELEY " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4qF-ZQ-kvq">
+                                        <rect key="frame" x="90" y="60" width="1130" height="120"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="131"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.8281752950643777" green="0.049218289972783109" blue="0.52866245532282019" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o86-qM-wuU">
                                 <rect key="frame" x="0.0" y="324" width="1920" height="758"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FabChloe" translatesAutoresizingMaskIntoConstraints="NO" id="OCe-Pg-OWL">
-                                        <rect key="frame" x="0.0" y="0.0" width="1920" height="759"/>
-                                        <color key="backgroundColor" red="0.13333333333333333" green="0.68627450980392157" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgd-vL-LY5" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
-                                        <rect key="frame" x="292" y="40" width="391" height="86"/>
+                                    <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgd-vL-LY5" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
+                                        <rect key="frame" x="258" y="94" width="391" height="86"/>
                                         <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="INTRODUCTION"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="value" red="0.8901960784313725" green="0.23921568627450979" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                 <real key="value" value="2"/>
@@ -109,8 +75,8 @@
                                             <segue destination="Pcs-dx-I8c" kind="show" id="ScO-sK-moI"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEA-Ks-GKd" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
-                                        <rect key="frame" x="292" y="136" width="391" height="86"/>
+                                    <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEA-Ks-GKd" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
+                                        <rect key="frame" x="258" y="190" width="391" height="86"/>
                                         <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="UPPER BODY"/>
@@ -122,15 +88,15 @@
                                                 <real key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="value" red="0.89019607840000003" green="0.23921568630000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="gdh-wm-Akl"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LV8-eW-EmB" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
-                                        <rect key="frame" x="292" y="232" width="391" height="86"/>
+                                    <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LV8-eW-EmB" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
+                                        <rect key="frame" x="258" y="286" width="391" height="86"/>
                                         <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="CORE"/>
@@ -142,15 +108,15 @@
                                                 <real key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="value" red="0.89019607840000003" green="0.23921568630000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="P1j-XP-JRG"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY9-mN-P9x" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
-                                        <rect key="frame" x="292" y="328" width="391" height="86"/>
+                                    <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY9-mN-P9x" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
+                                        <rect key="frame" x="258" y="382" width="391" height="86"/>
                                         <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="LOWER BODY"/>
@@ -162,15 +128,15 @@
                                                 <real key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="value" red="0.89019607840000003" green="0.23921568630000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="1vt-xe-3x9"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYr-mn-x4P" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
-                                        <rect key="frame" x="292" y="423" width="391" height="86"/>
+                                    <button opaque="NO" alpha="0.45000000000000001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYr-mn-x4P" customClass="TransparentButton" customModule="ChloeMadeley" customModuleProvider="target">
+                                        <rect key="frame" x="258" y="477" width="391" height="86"/>
                                         <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="FAT BURNING"/>
@@ -182,13 +148,17 @@
                                                 <real key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <color key="value" red="0.89019607840000003" green="0.23921568630000001" blue="0.82745098039999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
                                             <action selector="openDescription:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="FNo-uT-0Me"/>
                                         </connections>
                                     </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="FabChloe" translatesAutoresizingMaskIntoConstraints="NO" id="OCe-Pg-OWL">
+                                        <rect key="frame" x="691" y="8" width="1920" height="759"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -219,73 +189,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSB-aK-U0v">
-                                <rect key="frame" x="0.0" y="0.0" width="1920" height="323"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GrayChloe" translatesAutoresizingMaskIntoConstraints="NO" id="G60-eT-nfd">
-                                        <rect key="frame" x="1426" y="50" width="237" height="273"/>
-                                    </imageView>
-                                    <view alpha="0.5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mca-sj-GrO">
-                                        <rect key="frame" x="0.0" y="0.0" width="1920" height="323"/>
-                                        <color key="backgroundColor" red="0.82817529509999999" green="0.049218289970000002" blue="0.5286624553" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHLOE MADELEY " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlc-q1-biq">
-                                        <rect key="frame" x="90" y="60" width="1130" height="120"/>
-                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="131"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 MINUTE FAT LOSS WORKOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tD2-9D-U7g">
-                                        <rect key="frame" x="90" y="180" width="1130" height="70"/>
-                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="67"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ify-IG-DNe">
-                                        <rect key="frame" x="0.0" y="250" width="1210" height="75"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLq-us-dQx">
-                                                <rect key="frame" x="8" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="UPPER BODY"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IPr-I8-MNa">
-                                                <rect key="frame" x="627" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="LOWER BODY"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ige-AA-UXh">
-                                                <rect key="frame" x="935" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="FAT BURNING"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uG6-LK-1a8">
-                                                <rect key="frame" x="317" y="8" width="265" height="60"/>
-                                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
-                                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                                <state key="normal" title="CORE"/>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" red="0.82817529509999999" green="0.049218289970000002" blue="0.5286624553" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OdM-nD-Fnf">
-                                <rect key="frame" x="649" y="561" width="821" height="519"/>
+                                <rect key="frame" x="648" y="689" width="821" height="383"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bLd-8m-Ea3" customClass="VideoView" customModule="ChloeMadeley" customModuleProvider="target">
-                                <rect key="frame" x="816" y="343" width="500" height="218"/>
+                                <rect key="frame" x="667" y="331" width="689" height="378"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pIP-Jx-tge">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="323"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GrayChloe" translatesAutoresizingMaskIntoConstraints="NO" id="NR8-ps-fOT">
+                                        <rect key="frame" x="1228" y="16" width="267" height="307"/>
+                                    </imageView>
+                                    <view alpha="0.64999997615814209" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DGD-fI-dVJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="1920" height="323"/>
+                                        <color key="backgroundColor" red="0.89019607840000003" green="0.23727124320000001" blue="0.82839740340000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15 MINUTE FAT LOSS WORKOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HMD-Bt-qm9">
+                                        <rect key="frame" x="90" y="180" width="1130" height="70"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="67"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CHLOE MADELEY " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="BhU-us-0qP">
+                                        <rect key="frame" x="90" y="60" width="1130" height="120"/>
+                                        <fontDescription key="fontDescription" name="Futura-Bold" family="Futura-Bold" pointSize="131"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="descriptionTextView" destination="OdM-nD-Fnf" id="f8T-rH-6jf"/>
@@ -388,6 +329,7 @@
                                 <state key="normal" title="&lt;"/>
                             </button>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="textView" destination="EIK-DP-rcf" id="4Zz-4p-u1b"/>
@@ -412,7 +354,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iz-r6-zAQ">
                                 <rect key="frame" x="0.0" y="508" width="1080" height="572"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -425,9 +367,13 @@
                                 </constraints>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Start Timer"/>
+                                <connections>
+                                    <action selector="openTimer:" destination="KPm-Zg-K8U" eventType="primaryActionTriggered" id="jXd-RG-08T"/>
+                                </connections>
                             </button>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="l0T-Bm-CEY">
                                 <rect key="frame" x="0.0" y="50" width="1920" height="450"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="450" id="C7D-gY-reT"/>
                                 </constraints>
@@ -481,6 +427,7 @@
                                 </connections>
                             </collectionView>
                         </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="l0T-Bm-CEY" secondAttribute="trailing" id="6lo-by-hVT"/>
                             <constraint firstAttribute="bottomMargin" secondItem="4iz-r6-zAQ" secondAttribute="bottom" id="AuE-xP-lpN"/>
@@ -495,16 +442,67 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="l0T-Bm-CEY" id="26Q-38-5c9"/>
+                        <outlet property="descriptionTextView" destination="4iz-r6-zAQ" id="Dsy-7H-gqD"/>
+                        <outlet property="startTimerButton" destination="maR-KE-XVI" id="Oi2-un-ncR"/>
+                        <segue destination="tDN-gJ-JF9" kind="show" identifier="showExerciseViewController" id="tVM-ab-urx"/>
+                        <segue destination="TJ1-zm-C2z" kind="show" identifier="showTimerScreen" id="J9p-Ka-FiW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bTP-Ce-3SP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2689" y="525"/>
         </scene>
-        <!--View Controller-->
+        <!--Exercise View Controller-->
+        <scene sceneID="HS1-aQ-58r">
+            <objects>
+                <viewController id="tDN-gJ-JF9" customClass="ExerciseViewController" customModule="ChloeMadeley" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gc3-FI-buY"/>
+                        <viewControllerLayoutGuide type="bottom" id="jEX-eu-WEd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iZL-LX-ziM">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lhx-Jn-abH">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="atm-37-pxF"/>
+                                </constraints>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWc-Te-HfE">
+                                <rect key="frame" x="400" y="500" width="1120" height="580"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="gWc-Te-HfE" secondAttribute="bottom" id="7B8-PC-rlE"/>
+                            <constraint firstAttribute="topMargin" secondItem="Lhx-Jn-abH" secondAttribute="top" id="R0G-Lt-BVK"/>
+                            <constraint firstItem="gWc-Te-HfE" firstAttribute="leading" secondItem="iZL-LX-ziM" secondAttribute="leading" constant="400" id="RTY-Iu-NLR"/>
+                            <constraint firstAttribute="trailing" secondItem="Lhx-Jn-abH" secondAttribute="trailing" id="VOb-8l-1nY"/>
+                            <constraint firstAttribute="trailing" secondItem="gWc-Te-HfE" secondAttribute="trailing" constant="400" id="hr2-U5-GNO"/>
+                            <constraint firstItem="Lhx-Jn-abH" firstAttribute="leading" secondItem="iZL-LX-ziM" secondAttribute="leading" id="qqo-pn-POZ"/>
+                            <constraint firstItem="gWc-Te-HfE" firstAttribute="top" secondItem="Lhx-Jn-abH" secondAttribute="bottom" id="u4h-Gy-buC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionTextView" destination="gWc-Te-HfE" id="ddR-qo-vOo"/>
+                        <outlet property="videoLayer" destination="Lhx-Jn-abH" id="2Lf-fd-uCY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cEJ-1e-Qvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2683" y="1803"/>
+        </scene>
+        <!--Timer View Controller-->
         <scene sceneID="a8n-6G-3NU">
             <objects>
-                <viewController id="TJ1-zm-C2z" sceneMemberID="viewController">
+                <viewController id="TJ1-zm-C2z" customClass="TimerViewController" customModule="ChloeMadeley" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PbE-B1-sBA"/>
                         <viewControllerLayoutGuide type="bottom" id="Bsc-yY-VKg"/>
@@ -512,17 +510,56 @@
                     <view key="view" contentMode="scaleToFill" id="yRy-x2-iKo">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxc-gG-KYe">
+                                <rect key="frame" x="300" y="60" width="200" height="154"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" image="Refresh"/>
+                                <connections>
+                                    <action selector="replay:" destination="TJ1-zm-C2z" eventType="primaryActionTriggered" id="UIf-ti-Qyg"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UgS-Vb-Tav">
+                                <rect key="frame" x="594" y="574" width="760" height="527"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MotivatingChloe" translatesAutoresizingMaskIntoConstraints="NO" id="33f-8s-gH8">
+                                        <rect key="frame" x="0.0" y="0.0" width="760" height="1000"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqT-li-s5I">
+                                <rect key="frame" x="257" y="256" width="647" height="351"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="05:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vGQ-QI-0w0">
+                                        <rect key="frame" x="-7" y="-4" width="654" height="355"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="220"/>
+                                        <color key="textColor" red="0.82745098039215681" green="0.050980392156862744" blue="0.52941176470588236" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="replayButton" destination="fxc-gG-KYe" id="Bsg-mC-yFh"/>
+                        <outlet property="timerHolder" destination="wqT-li-s5I" id="Jjv-R4-jUV"/>
+                        <outlet property="timerLabel" destination="vGQ-QI-0w0" id="gab-7n-Fkt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I7f-iK-ylA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2503" y="2968"/>
+            <point key="canvasLocation" x="2687" y="2968"/>
         </scene>
     </scenes>
     <resources>
         <image name="1" width="2883" height="290"/>
         <image name="FabChloe" width="953" height="1343"/>
         <image name="GrayChloe" width="2436" height="3367"/>
+        <image name="MotivatingChloe" width="451" height="596"/>
         <image name="NPC" width="2144" height="1304"/>
+        <image name="Refresh" width="373" height="352"/>
     </resources>
 </document>

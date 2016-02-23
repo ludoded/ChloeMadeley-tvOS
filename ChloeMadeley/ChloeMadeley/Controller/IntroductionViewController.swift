@@ -19,6 +19,7 @@ class IntroductionViewController: BaseViewController {
         super.viewDidLoad()
         descriptionTextView.selectable = true
         descriptionTextView.panGestureRecognizer.allowedTouchTypes = [NSNumber(integer: UITouchType.Indirect.rawValue)]
+        descriptionTextView.attributedText = getAttributedString()
         
         let videoPath = NSBundle.mainBundle().pathForResource("intro", ofType: "mov") ?? ""
         let videoURL = NSURL(fileURLWithPath: videoPath)
@@ -41,5 +42,19 @@ class IntroductionViewController: BaseViewController {
     func playerItemDidReachEnd(notification: NSNotification) {
         avPlayer?.seekToTime(kCMTimeZero)
         avPlayer?.play()
+    }
+    
+    private func getAttributedString() -> NSAttributedString {
+        var htmlString = ""
+        let htmlPath = NSBundle.mainBundle().pathForResource("Intro", ofType: "html")
+        do {
+            htmlString = try String(contentsOfFile: htmlPath!, encoding: NSUTF8StringEncoding)} catch _ as NSError{}
+        
+        do {
+            let attributedString = try NSAttributedString(data: htmlString.dataUsingEncoding(NSUnicodeStringEncoding)!, options: [NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType], documentAttributes: nil)
+            return attributedString
+        } catch _ as NSError {}
+        
+        return NSAttributedString()
     }
 }

@@ -11,6 +11,13 @@
 		6360855C1C723CE300B3A834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6360855A1C723CE300B3A834 /* Main.storyboard */; };
 		6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6360855D1C723CE300B3A834 /* Assets.xcassets */; };
 		636085691C723CE300B3A834 /* ChloeMadeleyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */; };
+		63DCD8931C7B47D200422861 /* core.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD88F1C7B47D200422861 /* core.mp3 */; };
+		63DCD8941C7B47D200422861 /* fat burn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8901C7B47D200422861 /* fat burn.mp3 */; };
+		63DCD8951C7B47D200422861 /* lower body.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8911C7B47D200422861 /* lower body.mp3 */; };
+		63DCD8961C7B47D200422861 /* upper body.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8921C7B47D200422861 /* upper body.mp3 */; };
+		63DCD8981C7B47DE00422861 /* CoreBicycles.html in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8971C7B47DE00422861 /* CoreBicycles.html */; };
+		63DCD89A1C7B535000422861 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCD8991C7B535000422861 /* ExerciseViewController.swift */; };
+		63DCD89C1C7B587900422861 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCD89B1C7B587900422861 /* TimerViewController.swift */; };
 		63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */; };
 		63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */; };
 		63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008D81C77468B005ACDD9 /* TransparentButton.swift */; };
@@ -24,7 +31,7 @@
 		63E008F51C78A2F5005ACDD9 /* donkey kick backs.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E91C78A2F5005ACDD9 /* donkey kick backs.mp4 */; };
 		63E008F61C78A2F5005ACDD9 /* leg plunges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EA1C78A2F5005ACDD9 /* leg plunges.mp4 */; };
 		63E008F71C78A2F5005ACDD9 /* mountain climbers.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EB1C78A2F5005ACDD9 /* mountain climbers.mp4 */; };
-		63E008F81C78A2F5005ACDD9 /* NPC_6008.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EC1C78A2F5005ACDD9 /* NPC_6008.mp4 */; };
+		63E008F81C78A2F5005ACDD9 /* NPC.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EC1C78A2F5005ACDD9 /* NPC.mp4 */; };
 		63E008F91C78A2F5005ACDD9 /* plank.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008ED1C78A2F5005ACDD9 /* plank.mp4 */; };
 		63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */; };
 		63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */; };
@@ -50,7 +57,7 @@
 		B25DD37A1C7A5E8F00CE94D5 /* UpperBodyIntro.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3661C7A5E8F00CE94D5 /* UpperBodyIntro.html */; };
 		B25DD37B1C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3671C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html */; };
 		B25DD37C1C7A5E8F00CE94D5 /* UpperBodyTricepDips.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3681C7A5E8F00CE94D5 /* UpperBodyTricepDips.html */; };
-		B25DD37D1C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html */; };
+		B25DD37D1C7A5E8F00CE94D5 /* UpperBodyWalkoutPushUps.html in Resources */ = {isa = PBXBuildFile; fileRef = B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkoutPushUps.html */; };
 		B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F33001C790729005CE594 /* DescriptionViewController.swift */; };
 		B29F33031C790850005CE594 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29F33021C790850005CE594 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
@@ -74,6 +81,13 @@
 		636085641C723CE300B3A834 /* ChloeMadeleyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChloeMadeleyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		636085681C723CE300B3A834 /* ChloeMadeleyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChloeMadeleyTests.swift; sourceTree = "<group>"; };
 		6360856A1C723CE300B3A834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DCD88F1C7B47D200422861 /* core.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = core.mp3; sourceTree = "<group>"; };
+		63DCD8901C7B47D200422861 /* fat burn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "fat burn.mp3"; sourceTree = "<group>"; };
+		63DCD8911C7B47D200422861 /* lower body.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lower body.mp3"; sourceTree = "<group>"; };
+		63DCD8921C7B47D200422861 /* upper body.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "upper body.mp3"; sourceTree = "<group>"; };
+		63DCD8971C7B47DE00422861 /* CoreBicycles.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreBicycles.html; sourceTree = "<group>"; };
+		63DCD8991C7B535000422861 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewController.swift; path = Controller/ExerciseViewController.swift; sourceTree = "<group>"; };
+		63DCD89B1C7B587900422861 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = Controller/TimerViewController.swift; sourceTree = "<group>"; };
 		63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Bold.ttf"; sourceTree = "<group>"; };
 		63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Book.ttf"; sourceTree = "<group>"; };
 		63E008D81C77468B005ACDD9 /* TransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransparentButton.swift; path = UI/Buttons/TransparentButton.swift; sourceTree = "<group>"; };
@@ -87,7 +101,7 @@
 		63E008E91C78A2F5005ACDD9 /* donkey kick backs.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "donkey kick backs.mp4"; sourceTree = "<group>"; };
 		63E008EA1C78A2F5005ACDD9 /* leg plunges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "leg plunges.mp4"; sourceTree = "<group>"; };
 		63E008EB1C78A2F5005ACDD9 /* mountain climbers.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mountain climbers.mp4"; sourceTree = "<group>"; };
-		63E008EC1C78A2F5005ACDD9 /* NPC_6008.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NPC_6008.mp4; sourceTree = "<group>"; };
+		63E008EC1C78A2F5005ACDD9 /* NPC.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = NPC.mp4; sourceTree = "<group>"; };
 		63E008ED1C78A2F5005ACDD9 /* plank.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = plank.mp4; sourceTree = "<group>"; };
 		63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "squat jumps.mp4"; sourceTree = "<group>"; };
 		63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tricep dips.mp4"; sourceTree = "<group>"; };
@@ -113,7 +127,7 @@
 		B25DD3661C7A5E8F00CE94D5 /* UpperBodyIntro.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyIntro.html; sourceTree = "<group>"; };
 		B25DD3671C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyMountainClimbers.html; sourceTree = "<group>"; };
 		B25DD3681C7A5E8F00CE94D5 /* UpperBodyTricepDips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyTricepDips.html; sourceTree = "<group>"; };
-		B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyWalkOutPushUps.html; sourceTree = "<group>"; };
+		B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkoutPushUps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = UpperBodyWalkoutPushUps.html; sourceTree = "<group>"; };
 		B29F33001C790729005CE594 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionViewController.swift; path = Controller/DescriptionViewController.swift; sourceTree = "<group>"; };
 		B29F33021C790850005CE594 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controller/BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -179,6 +193,17 @@
 			path = ChloeMadeleyTests;
 			sourceTree = "<group>";
 		};
+		63DCD88E1C7B47C200422861 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				63DCD88F1C7B47D200422861 /* core.mp3 */,
+				63DCD8901C7B47D200422861 /* fat burn.mp3 */,
+				63DCD8911C7B47D200422861 /* lower body.mp3 */,
+				63DCD8921C7B47D200422861 /* upper body.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
 		63E008D11C74BD12005ACDD9 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -213,6 +238,8 @@
 				B29F33001C790729005CE594 /* DescriptionViewController.swift */,
 				B29F33021C790850005CE594 /* BaseViewController.swift */,
 				B25DD3541C7A483500CE94D5 /* ExercisesViewController.swift */,
+				63DCD8991C7B535000422861 /* ExerciseViewController.swift */,
+				63DCD89B1C7B587900422861 /* TimerViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -252,7 +279,7 @@
 				63E008E91C78A2F5005ACDD9 /* donkey kick backs.mp4 */,
 				63E008EA1C78A2F5005ACDD9 /* leg plunges.mp4 */,
 				63E008EB1C78A2F5005ACDD9 /* mountain climbers.mp4 */,
-				63E008EC1C78A2F5005ACDD9 /* NPC_6008.mp4 */,
+				63E008EC1C78A2F5005ACDD9 /* NPC.mp4 */,
 				63E008ED1C78A2F5005ACDD9 /* plank.mp4 */,
 				63E008EE1C78A2F5005ACDD9 /* squat jumps.mp4 */,
 				63E008EF1C78A2F5005ACDD9 /* tricep dips.mp4 */,
@@ -264,7 +291,9 @@
 		B29F33041C791AEA005CE594 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				63DCD88E1C7B47C200422861 /* audio */,
 				B25DD3561C7A5E8F00CE94D5 /* CoreIntro.html */,
+				63DCD8971C7B47DE00422861 /* CoreBicycles.html */,
 				B25DD3571C7A5E8F00CE94D5 /* CoreLegPlunges.html */,
 				B25DD3581C7A5E8F00CE94D5 /* CoreMountainClimbers.html */,
 				B25DD3591C7A5E8F00CE94D5 /* CorePlank.html */,
@@ -283,7 +312,7 @@
 				B25DD3661C7A5E8F00CE94D5 /* UpperBodyIntro.html */,
 				B25DD3671C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html */,
 				B25DD3681C7A5E8F00CE94D5 /* UpperBodyTricepDips.html */,
-				B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html */,
+				B25DD3691C7A5E8F00CE94D5 /* UpperBodyWalkoutPushUps.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -372,8 +401,10 @@
 				B25DD3711C7A5E8F00CE94D5 /* FatBurningSquatJumps.html in Resources */,
 				B25DD3741C7A5E8F00CE94D5 /* LowerBodyBurpees.html in Resources */,
 				63E008F91C78A2F5005ACDD9 /* plank.mp4 in Resources */,
+				63DCD8981C7B47DE00422861 /* CoreBicycles.html in Resources */,
 				B25DD3721C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html in Resources */,
 				63E008F61C78A2F5005ACDD9 /* leg plunges.mp4 in Resources */,
+				63DCD8961C7B47D200422861 /* upper body.mp3 in Resources */,
 				B25DD36A1C7A5E8F00CE94D5 /* CoreIntro.html in Resources */,
 				B25DD3731C7A5E8F00CE94D5 /* Intro.html in Resources */,
 				B25DD3751C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html in Resources */,
@@ -389,18 +420,21 @@
 				63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */,
 				B25DD3781C7A5E8F00CE94D5 /* LowerBodyWalkingLunges.html in Resources */,
 				B25DD36F1C7A5E8F00CE94D5 /* FatBurningIntro.html in Resources */,
-				63E008F81C78A2F5005ACDD9 /* NPC_6008.mp4 in Resources */,
+				63E008F81C78A2F5005ACDD9 /* NPC.mp4 in Resources */,
+				63DCD8931C7B47D200422861 /* core.mp3 in Resources */,
 				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
 				B25DD3701C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html in Resources */,
 				B25DD36E1C7A5E8F00CE94D5 /* FatBurningBurpees.html in Resources */,
+				63DCD8951C7B47D200422861 /* lower body.mp3 in Resources */,
 				B25DD36C1C7A5E8F00CE94D5 /* CoreMountainClimbers.html in Resources */,
-				B25DD37D1C7A5E8F00CE94D5 /* UpperBodyWalkOutPushUps.html in Resources */,
+				B25DD37D1C7A5E8F00CE94D5 /* UpperBodyWalkoutPushUps.html in Resources */,
 				63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */,
 				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
 				B25DD37A1C7A5E8F00CE94D5 /* UpperBodyIntro.html in Resources */,
 				B25DD3791C7A5E8F00CE94D5 /* UpperBodyBurpees.html in Resources */,
 				B25DD36D1C7A5E8F00CE94D5 /* CorePlank.html in Resources */,
 				63E008F31C78A2F5005ACDD9 /* bicycles.mp4 in Resources */,
+				63DCD8941C7B47D200422861 /* fat burn.mp3 in Resources */,
 				63E008F21C78A2F5005ACDD9 /* alternate lunges.mp4 in Resources */,
 				63E008F51C78A2F5005ACDD9 /* donkey kick backs.mp4 in Resources */,
 				B25DD3771C7A5E8F00CE94D5 /* LowerBodySquatJumps.html in Resources */,
@@ -428,8 +462,10 @@
 				B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */,
 				B25DD3531C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift in Sources */,
 				B25DD3551C7A483500CE94D5 /* ExercisesViewController.swift in Sources */,
+				63DCD89A1C7B535000422861 /* ExerciseViewController.swift in Sources */,
 				63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */,
 				B29F33031C790850005CE594 /* BaseViewController.swift in Sources */,
+				63DCD89C1C7B587900422861 /* TimerViewController.swift in Sources */,
 				636085571C723CE300B3A834 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,7 +588,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ChloeMadeley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ayk.ChloeMadeley;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aztechfilms.cmtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -564,7 +600,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = ChloeMadeley/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Ayk.ChloeMadeley;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aztechfilms.cmtest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

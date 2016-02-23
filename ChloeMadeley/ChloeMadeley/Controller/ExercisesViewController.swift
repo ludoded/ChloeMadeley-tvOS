@@ -20,11 +20,33 @@ class ExercisesViewController: UIViewController {
     @IBOutlet weak var startTimerButton: UIButton!
     @IBOutlet weak var descriptionTextView: UITextView!
     
-    var exerciseType: ExerciseType?
+    @IBAction func openTimer(sender: UIButton) {
+        performSegueWithIdentifier("showTimerScreen", sender: nil)
+    }
+    
+    var selectedAttributesString: NSAttributedString?
+    var selectedVideoName: String?
+    
+    var exerciseType: ExerciseType? = .UpperBody
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        descriptionTextView.attributedText = getAttributedString(getHTMLIntro())
+    }
+    
+    private func getAttributedString(htmlName: String) -> NSAttributedString {
+        var htmlString = ""
+        let htmlPath = NSBundle.mainBundle().pathForResource(htmlName, ofType: "html")
+        do {
+            htmlString = try String(contentsOfFile: htmlPath!, encoding: NSUTF8StringEncoding)} catch _ as NSError{}
+        
+        do {
+            let attributedString = try NSAttributedString(data: htmlString.dataUsingEncoding(NSUnicodeStringEncoding)!, options: [NSDocumentTypeDocumentAttribute : NSHTMLTextDocumentType], documentAttributes: nil)
+            return attributedString
+        } catch _ as NSError {}
+        
+        return NSAttributedString()
     }
     
     private func getType(indexPath: NSIndexPath) -> ThumbsType {
@@ -39,6 +61,21 @@ class ExercisesViewController: UIViewController {
             return row == 0 ? .SquatJumps : row == 1 ? .NPC : row == 2 ? .DonkeyKickBacks : .Burpees
         case .Fat:
             return row == 0 ? .MountainClimbers : row == 1 ? .Burpees : row == 2 ? .SquatJumps : .NPC
+        }
+    }
+    
+    private func getVideoName(type: ThumbsType) -> String {
+        switch type {
+        case .Bicycles: return "bicycles"
+        case .Burpees: return "burpees"
+        case .DonkeyKickBacks: return "donkey kick backs"
+        case .LegPlunges: return "leg plunges"
+        case .MountainClimbers: return "mountain climbers"
+        case .NPC: return "NPC"
+        case .Plank: return "plank"
+        case .SquatJumps: return "squat jumps"
+        case .TricepDips: return "tricep dips"
+        case .WalkoutPushups: return "walkout push ups"
         }
     }
     
@@ -68,14 +105,70 @@ class ExercisesViewController: UIViewController {
         case .LowerBody:
             return row == 0 ? "LowerBodySquatJumps" : row == 1 ? "LowerBodyWalkingLunges" : row == 2 ? "LowerBodyDonkeyKickBacks" : "LowerBodyBurpees"
         case .Fat:
-            return row == 0 ? "FatBurningMountainClimbers" : row == 1 ? "FatBurningBurpees" : row == 2 ? "FatBurningSquatJumps" : "FatBurningWalkingPlunges"
+            return row == 0 ? "FatBurningMountainClimbers" : row == 1 ? "FatBurningBurpees" : row == 2 ? "FatBurningSquatJumps" : "FatBurningWalkingLunges"
+        }
+    }
+    
+    private func getHTMLIntro() -> String {
+        switch exerciseType! {
+        case .UpperBody:
+            return "UpperBodyIntro"
+        case .Core:
+            return "CoreIntro"
+        case .LowerBody:
+            return "LowerBodyIntro"
+        case .Fat:
+            return "FatBurningIntro"
+        }
+    }
+    
+    
+    private func getAudioName() -> String {
+        switch exerciseType! {
+        case .UpperBody:
+            return "upper body"
+        case .Core:
+            return "core"
+        case .LowerBody:
+            return "lower body"
+        case .Fat:
+            return "fat burn"
+        }
+    }
+    
+    private func getTimeInterval() -> NSTimeInterval {
+        switch exerciseType! {
+        case .UpperBody:
+            return 13
+        case .Core:
+            return 12
+        case .LowerBody:
+            return 12
+        case .Fat:
+            return 14
+        }
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showExerciseViewController" {
+            let vc = segue.destinationViewController as? ExerciseViewController
+            vc?.attributedText = selectedAttributesString
+            vc?.videoName = selectedVideoName
+        }
+        else if segue.identifier == "showTimerScreen" {
+            let vc = segue.destinationViewController as? TimerViewController
+            vc?.audioName = getAudioName()
+            vc?.countdownStartTime = getTimeInterval()
         }
     }
 }
 
 extension ExercisesViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
+        selectedVideoName = getVideoName(getType(indexPath))
+        selectedAttributesString = getAttributedString(getHTML(indexPath))
+        performSegueWithIdentifier("showExerciseViewController", sender: nil)
     }
     
     func collectionView(collectionView: UICollectionView, canFocusItemAtIndexPath indexPath: NSIndexPath) -> Bool {
