@@ -15,7 +15,10 @@ class ExerciseViewController: UIViewController {
     
     var attributedText: NSAttributedString?
     var videoName: String?
-    var avPlayer: AVPlayer?
+    var audioName: String?
+    
+    private var avVideoPlayer: AVPlayer?
+    private var avAudioPlayer: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,25 +32,36 @@ class ExerciseViewController: UIViewController {
         if let videoName = videoName {
             let videoPath = NSBundle.mainBundle().pathForResource(videoName, ofType: "mp4") ?? ""
             let videoURL = NSURL(fileURLWithPath: videoPath)
-            avPlayer = AVPlayer(URL: videoURL)
+            avVideoPlayer = AVPlayer(URL: videoURL)
             
-            let playerLayer = AVPlayerLayer(player: avPlayer)
+            let playerLayer = AVPlayerLayer(player: avVideoPlayer)
             playerLayer.frame = videoLayer.bounds
             playerLayer.videoGravity = AVLayerVideoGravityResizeAspect
             playerLayer.needsDisplayOnBoundsChange = true
             videoLayer.layer.addSublayer(playerLayer)
             videoLayer.layer.needsDisplayOnBoundsChange = true
-            avPlayer?.play()
+            avVideoPlayer?.play()
             
             NSNotificationCenter.defaultCenter().addObserver(self,
                 selector: "playerItemDidReachEnd:",
                 name: AVPlayerItemDidPlayToEndTimeNotification,
-                object: avPlayer!.currentItem)
+                object: avVideoPlayer!.currentItem)
+        }
+        
+        if let audioName = audioName {
+            let audioPath = NSBundle.mainBundle().pathForResource(audioName, ofType: "mp3")
+            let audioURL = NSURL(fileURLWithPath: audioPath!)
+            do {
+                avAudioPlayer = try AVAudioPlayer(contentsOfURL: audioURL)
+                avAudioPlayer?.prepareToPlay()
+                avAudioPlayer?.numberOfLoops = -1
+                avAudioPlayer?.play()
+            } catch _ as NSError {}
         }
     }
     
     func playerItemDidReachEnd(notification: NSNotification) {
-        avPlayer?.seekToTime(kCMTimeZero)
-        avPlayer?.play()
+        avVideoPlayer?.seekToTime(kCMTimeZero)
+        avVideoPlayer?.play()
     }
 }

@@ -19,7 +19,7 @@ class TimerViewController: UIViewController {
     private var countdownTimer: NSTimer?
     private var countdownTimeInterval: NSTimeInterval = 300
     private var completedCounter: Int = 0
-    private var videoTimes = [300, 240, 180, 120, 60]//[60, 120, 180, 240, 300]
+    private var videoTimes = [300, 240, 180, 120, 60]
     
     @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var timerHolder: UIView!
@@ -41,7 +41,9 @@ class TimerViewController: UIViewController {
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
+        
         avAudioPlayer?.stop()
+        countdownTimer?.invalidate()
     }
     
     @IBAction func replay(sender: UIButton) {

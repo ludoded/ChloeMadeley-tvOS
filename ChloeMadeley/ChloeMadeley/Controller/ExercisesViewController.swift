@@ -26,12 +26,15 @@ class ExercisesViewController: UIViewController {
     
     var selectedAttributesString: NSAttributedString?
     var selectedVideoName: String?
+    var selectedExerciseAudioName: String?
     
     var exerciseType: ExerciseType? = .UpperBody
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        descriptionTextView.selectable = true
+        descriptionTextView.panGestureRecognizer.allowedTouchTypes = [NSNumber(integer: UITouchType.Indirect.rawValue)]
         descriptionTextView.attributedText = getAttributedString(getHTMLIntro())
         collectionView.clipsToBounds = false
     }
@@ -77,6 +80,21 @@ class ExercisesViewController: UIViewController {
         case .SquatJumps: return "squat jumps"
         case .TricepDips: return "tricep dips"
         case .WalkoutPushups: return "walkout push ups"
+        }
+    }
+    
+    private func getExerciseAudioName(type: ThumbsType) -> String {
+        switch type {
+        case .Bicycles: return "Bicycles"
+        case .Burpees: return "Burpees"
+        case .DonkeyKickBacks: return "Donkey Kick Backs"
+        case .LegPlunges: return "Leg Plunges"
+        case .MountainClimbers: return "Mountain Climbers"
+        case .NPC: return "Walking Lunges"
+        case .Plank: return "The Plank"
+        case .SquatJumps: return "Squat Jumps"
+        case .TricepDips: return "Tricep dips"
+        case .WalkoutPushups: return "Walk out Push ups"
         }
     }
     
@@ -169,6 +187,7 @@ class ExercisesViewController: UIViewController {
             let vc = segue.destinationViewController as? ExerciseViewController
             vc?.attributedText = selectedAttributesString
             vc?.videoName = selectedVideoName
+            vc?.audioName = selectedExerciseAudioName
         }
         else if segue.identifier == "showTimerScreen" {
             let vc = segue.destinationViewController as? TimerViewController
@@ -181,7 +200,9 @@ class ExercisesViewController: UIViewController {
 
 extension ExercisesViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        selectedVideoName = getVideoName(getType(indexPath))
+        let type = getType(indexPath)
+        selectedVideoName = getVideoName(type)
+        selectedExerciseAudioName = getExerciseAudioName(type)
         selectedAttributesString = getAttributedString(getHTML(indexPath))
         performSegueWithIdentifier("showExerciseViewController", sender: nil)
     }

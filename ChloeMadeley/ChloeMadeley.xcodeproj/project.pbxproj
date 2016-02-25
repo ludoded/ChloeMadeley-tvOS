@@ -18,6 +18,16 @@
 		63DCD8981C7B47DE00422861 /* CoreBicycles.html in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8971C7B47DE00422861 /* CoreBicycles.html */; };
 		63DCD89A1C7B535000422861 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCD8991C7B535000422861 /* ExerciseViewController.swift */; };
 		63DCD89C1C7B587900422861 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DCD89B1C7B587900422861 /* TimerViewController.swift */; };
+		63DCD8A71C7F205200422861 /* Bicycles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD89D1C7F205200422861 /* Bicycles.mp3 */; };
+		63DCD8A81C7F205200422861 /* Burpees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD89E1C7F205200422861 /* Burpees.mp3 */; };
+		63DCD8A91C7F205200422861 /* Donkey Kick Backs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD89F1C7F205200422861 /* Donkey Kick Backs.mp3 */; };
+		63DCD8AA1C7F205200422861 /* Leg Plunges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A01C7F205200422861 /* Leg Plunges.mp3 */; };
+		63DCD8AB1C7F205200422861 /* Mountain Climbers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A11C7F205200422861 /* Mountain Climbers.mp3 */; };
+		63DCD8AC1C7F205200422861 /* Squat Jumps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A21C7F205200422861 /* Squat Jumps.mp3 */; };
+		63DCD8AD1C7F205200422861 /* The Plank.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A31C7F205200422861 /* The Plank.mp3 */; };
+		63DCD8AE1C7F205200422861 /* Tricep dips.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A41C7F205200422861 /* Tricep dips.mp3 */; };
+		63DCD8AF1C7F205200422861 /* Walk out Push ups.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A51C7F205200422861 /* Walk out Push ups.mp3 */; };
+		63DCD8B01C7F205200422861 /* Walking Lunges.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63DCD8A61C7F205200422861 /* Walking Lunges.mp3 */; };
 		63E008D41C74BD12005ACDD9 /* Futura-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */; };
 		63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */; };
 		63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008D81C77468B005ACDD9 /* TransparentButton.swift */; };
@@ -88,6 +98,16 @@
 		63DCD8971C7B47DE00422861 /* CoreBicycles.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CoreBicycles.html; sourceTree = "<group>"; };
 		63DCD8991C7B535000422861 /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExerciseViewController.swift; path = Controller/ExerciseViewController.swift; sourceTree = "<group>"; };
 		63DCD89B1C7B587900422861 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerViewController.swift; path = Controller/TimerViewController.swift; sourceTree = "<group>"; };
+		63DCD89D1C7F205200422861 /* Bicycles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bicycles.mp3; path = audio/Bicycles.mp3; sourceTree = "<group>"; };
+		63DCD89E1C7F205200422861 /* Burpees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Burpees.mp3; path = audio/Burpees.mp3; sourceTree = "<group>"; };
+		63DCD89F1C7F205200422861 /* Donkey Kick Backs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Donkey Kick Backs.mp3"; path = "audio/Donkey Kick Backs.mp3"; sourceTree = "<group>"; };
+		63DCD8A01C7F205200422861 /* Leg Plunges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Leg Plunges.mp3"; path = "audio/Leg Plunges.mp3"; sourceTree = "<group>"; };
+		63DCD8A11C7F205200422861 /* Mountain Climbers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Mountain Climbers.mp3"; path = "audio/Mountain Climbers.mp3"; sourceTree = "<group>"; };
+		63DCD8A21C7F205200422861 /* Squat Jumps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Squat Jumps.mp3"; path = "audio/Squat Jumps.mp3"; sourceTree = "<group>"; };
+		63DCD8A31C7F205200422861 /* The Plank.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "The Plank.mp3"; path = "audio/The Plank.mp3"; sourceTree = "<group>"; };
+		63DCD8A41C7F205200422861 /* Tricep dips.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Tricep dips.mp3"; path = "audio/Tricep dips.mp3"; sourceTree = "<group>"; };
+		63DCD8A51C7F205200422861 /* Walk out Push ups.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Walk out Push ups.mp3"; path = "audio/Walk out Push ups.mp3"; sourceTree = "<group>"; };
+		63DCD8A61C7F205200422861 /* Walking Lunges.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Walking Lunges.mp3"; path = "audio/Walking Lunges.mp3"; sourceTree = "<group>"; };
 		63E008D21C74BD12005ACDD9 /* Futura-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Bold.ttf"; sourceTree = "<group>"; };
 		63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Book.ttf"; sourceTree = "<group>"; };
 		63E008D81C77468B005ACDD9 /* TransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransparentButton.swift; path = UI/Buttons/TransparentButton.swift; sourceTree = "<group>"; };
@@ -196,6 +216,16 @@
 		63DCD88E1C7B47C200422861 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				63DCD89D1C7F205200422861 /* Bicycles.mp3 */,
+				63DCD89E1C7F205200422861 /* Burpees.mp3 */,
+				63DCD89F1C7F205200422861 /* Donkey Kick Backs.mp3 */,
+				63DCD8A01C7F205200422861 /* Leg Plunges.mp3 */,
+				63DCD8A11C7F205200422861 /* Mountain Climbers.mp3 */,
+				63DCD8A21C7F205200422861 /* Squat Jumps.mp3 */,
+				63DCD8A31C7F205200422861 /* The Plank.mp3 */,
+				63DCD8A41C7F205200422861 /* Tricep dips.mp3 */,
+				63DCD8A51C7F205200422861 /* Walk out Push ups.mp3 */,
+				63DCD8A61C7F205200422861 /* Walking Lunges.mp3 */,
 				63DCD88F1C7B47D200422861 /* core.mp3 */,
 				63DCD8901C7B47D200422861 /* fat burn.mp3 */,
 				63DCD8911C7B47D200422861 /* lower body.mp3 */,
@@ -399,21 +429,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B25DD3711C7A5E8F00CE94D5 /* FatBurningSquatJumps.html in Resources */,
+				63DCD8AC1C7F205200422861 /* Squat Jumps.mp3 in Resources */,
+				63DCD8AD1C7F205200422861 /* The Plank.mp3 in Resources */,
 				B25DD3741C7A5E8F00CE94D5 /* LowerBodyBurpees.html in Resources */,
 				63E008F91C78A2F5005ACDD9 /* plank.mp4 in Resources */,
+				63DCD8AA1C7F205200422861 /* Leg Plunges.mp3 in Resources */,
 				63DCD8981C7B47DE00422861 /* CoreBicycles.html in Resources */,
 				B25DD3721C7A5E8F00CE94D5 /* FatBurningWalkingLunges.html in Resources */,
 				63E008F61C78A2F5005ACDD9 /* leg plunges.mp4 in Resources */,
 				63DCD8961C7B47D200422861 /* upper body.mp3 in Resources */,
 				B25DD36A1C7A5E8F00CE94D5 /* CoreIntro.html in Resources */,
 				B25DD3731C7A5E8F00CE94D5 /* Intro.html in Resources */,
+				63DCD8AE1C7F205200422861 /* Tricep dips.mp3 in Resources */,
 				B25DD3751C7A5E8F00CE94D5 /* LowerBodyDonkeyKickBacks.html in Resources */,
 				B25DD37C1C7A5E8F00CE94D5 /* UpperBodyTricepDips.html in Resources */,
 				B25DD37B1C7A5E8F00CE94D5 /* UpperBodyMountainClimbers.html in Resources */,
 				63E008FC1C78A2F5005ACDD9 /* walkout push ups.mp4 in Resources */,
 				B25DD3761C7A5E8F00CE94D5 /* LowerBodyIntro.html in Resources */,
 				63E008F71C78A2F5005ACDD9 /* mountain climbers.mp4 in Resources */,
+				63DCD8A91C7F205200422861 /* Donkey Kick Backs.mp3 in Resources */,
 				63E008FA1C78A2F5005ACDD9 /* squat jumps.mp4 in Resources */,
+				63DCD8A81C7F205200422861 /* Burpees.mp3 in Resources */,
+				63DCD8A71C7F205200422861 /* Bicycles.mp3 in Resources */,
 				63E008F41C78A2F5005ACDD9 /* burpees.mp4 in Resources */,
 				63E008F11C78A2F5005ACDD9 /* intro.mov in Resources */,
 				63E008FB1C78A2F5005ACDD9 /* tricep dips.mp4 in Resources */,
@@ -423,6 +460,7 @@
 				63E008F81C78A2F5005ACDD9 /* NPC.mp4 in Resources */,
 				63DCD8931C7B47D200422861 /* core.mp3 in Resources */,
 				6360855E1C723CE300B3A834 /* Assets.xcassets in Resources */,
+				63DCD8AF1C7F205200422861 /* Walk out Push ups.mp3 in Resources */,
 				B25DD3701C7A5E8F00CE94D5 /* FatBurningMountainClimbers.html in Resources */,
 				B25DD36E1C7A5E8F00CE94D5 /* FatBurningBurpees.html in Resources */,
 				63DCD8951C7B47D200422861 /* lower body.mp3 in Resources */,
@@ -431,6 +469,7 @@
 				63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */,
 				6360855C1C723CE300B3A834 /* Main.storyboard in Resources */,
 				B25DD37A1C7A5E8F00CE94D5 /* UpperBodyIntro.html in Resources */,
+				63DCD8AB1C7F205200422861 /* Mountain Climbers.mp3 in Resources */,
 				B25DD3791C7A5E8F00CE94D5 /* UpperBodyBurpees.html in Resources */,
 				B25DD36D1C7A5E8F00CE94D5 /* CorePlank.html in Resources */,
 				63E008F31C78A2F5005ACDD9 /* bicycles.mp4 in Resources */,
@@ -439,6 +478,7 @@
 				63E008F51C78A2F5005ACDD9 /* donkey kick backs.mp4 in Resources */,
 				B25DD3771C7A5E8F00CE94D5 /* LowerBodySquatJumps.html in Resources */,
 				B25DD36B1C7A5E8F00CE94D5 /* CoreLegPlunges.html in Resources */,
+				63DCD8B01C7F205200422861 /* Walking Lunges.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
