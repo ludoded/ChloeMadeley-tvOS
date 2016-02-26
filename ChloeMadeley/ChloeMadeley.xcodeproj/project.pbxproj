@@ -32,7 +32,6 @@
 		63E008D51C74BD12005ACDD9 /* Futura-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */; };
 		63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008D81C77468B005ACDD9 /* TransparentButton.swift */; };
 		63E008DC1C774EE3005ACDD9 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */; };
-		63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008DE1C788CE9005ACDD9 /* VideoView.swift */; };
 		63E008E11C78A2C7005ACDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E008E01C78A2C7005ACDD9 /* ViewController.swift */; };
 		63E008F11C78A2F5005ACDD9 /* intro.mov in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E41C78A2F5005ACDD9 /* intro.mov */; };
 		63E008F21C78A2F5005ACDD9 /* alternate lunges.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 63E008E61C78A2F5005ACDD9 /* alternate lunges.mp4 */; };
@@ -112,7 +111,6 @@
 		63E008D31C74BD12005ACDD9 /* Futura-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Futura-Book.ttf"; sourceTree = "<group>"; };
 		63E008D81C77468B005ACDD9 /* TransparentButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransparentButton.swift; path = UI/Buttons/TransparentButton.swift; sourceTree = "<group>"; };
 		63E008DB1C774EE3005ACDD9 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroductionViewController.swift; path = Controller/IntroductionViewController.swift; sourceTree = "<group>"; };
-		63E008DE1C788CE9005ACDD9 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoView.swift; path = UI/Views/VideoView.swift; sourceTree = "<group>"; };
 		63E008E01C78A2C7005ACDD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
 		63E008E41C78A2F5005ACDD9 /* intro.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = intro.mov; sourceTree = "<group>"; };
 		63E008E61C78A2F5005ACDD9 /* alternate lunges.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "alternate lunges.mp4"; sourceTree = "<group>"; };
@@ -277,7 +275,6 @@
 		63E008DD1C788CCC005ACDD9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				63E008DE1C788CE9005ACDD9 /* VideoView.swift */,
 				B25DD3521C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift */,
 			);
 			name = Views;
@@ -498,7 +495,6 @@
 			files = (
 				63E008E11C78A2C7005ACDD9 /* ViewController.swift in Sources */,
 				63E008D91C77468B005ACDD9 /* TransparentButton.swift in Sources */,
-				63E008DF1C788CE9005ACDD9 /* VideoView.swift in Sources */,
 				B29F33011C790729005CE594 /* DescriptionViewController.swift in Sources */,
 				B25DD3531C7A43DA00CE94D5 /* ExerciseCollectionViewCell.swift in Sources */,
 				B25DD3551C7A483500CE94D5 /* ExercisesViewController.swift in Sources */,
