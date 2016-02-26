@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 
 class IntroductionViewController: BaseViewController {
-    @IBOutlet weak var videoLayer: VideoView!
+    @IBOutlet weak var videoLayer: UIView!
     @IBOutlet weak var descriptionTextView: UITextView!
     
     var avPlayer: AVPlayer?

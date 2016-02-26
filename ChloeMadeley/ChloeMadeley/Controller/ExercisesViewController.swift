@@ -171,9 +171,9 @@ class ExercisesViewController: UIViewController {
     private func getTimeInterval() -> NSTimeInterval {
         switch exerciseType! {
         case .UpperBody:
-            return 13
-        case .Core:
             return 12
+        case .Core:
+            return 11.5
         case .LowerBody:
             return 12
         case .Fat:
